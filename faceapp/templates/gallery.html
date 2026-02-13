@@ -58,7 +58,7 @@
         <h1 class="display-4 fw-bold">My Cloud Gallery</h1>
         <p class="text-muted">Directly synced from Dropbox folder</p>
     </div>
-
+    {% if images %}
     <div class="row">
         {% for img_url in images %}
             <div class="col-md-4 col-sm-6">
@@ -79,6 +79,7 @@
             </div>
         {% endfor %}
     </div>
+    {% endif %}
 </div>
 
 <script>
