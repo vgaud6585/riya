@@ -119,5 +119,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://web-production-ec090.up.railway.app'
+    'https://web-production-76d587.up.railway.app/'
 ]
